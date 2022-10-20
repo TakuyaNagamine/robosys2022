@@ -1,8 +1,9 @@
-  #!/usr/bin/python3
-  import sys
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2022 Takuya Nagamine <s21c1090ke@s.chibakoudai.jp>
+import sys
 
-  ans = 0.0
-  for line in sys.stdin:
-      ans += float(line)
+ans = 0.0
+for line in sys.stdin:
+    ans += float(line)
 
-  print(ans)
+print(ans)
