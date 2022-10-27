@@ -1,7 +1,6 @@
-#!/bin/bash
+#!/bin/bash -xv
 # SPDX-FileCopyrightText: 2022 Takuya Nagamine
 # SPDX-License-Identifier: BSD-3-Clause
-
 ng () {
 	echo NG at Line $1
 	res=1
