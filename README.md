@@ -1,11 +1,12 @@
+![test](https://github.com/TakuyaNagamine/robosys2022/actions/workflows/test.yml/badge.svg)
 # robosys2022
 ## 使用方法
 * ターミナル上にて```git clone https://github.com/TakuyaNagamine/robosys2022.git```を実行
 
 ## plusコマンド
-![test](https://github.com/TakuyaNagamine/robosys2022/actions/workflows/test.yml/badge.svg)
 * 標準入力から読み込んだ数字を足す。
-
+## subtractionコマンド
+* 標準入力から読み込んだ数字を足す。
 ## 必要なソフトウェア
 * Python
   * テスト済み: 3.7〜3.10
