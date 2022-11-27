@@ -2,10 +2,10 @@
 # SPDX-FileCopyrightText: 2022 Takuya Nagamine <s21c1090ke@s.chibakoudai.jp>
 # SPDX-License-Identifier: BSD-3-Clause
 import sys
-ans = 0   #元々0.0だったのを0に変更
+ans = 0
 for line in sys.stdin:
     try: 
-        ans += int(line)   #intは文字列を整数に（失敗すると例外発生）
+        ans += int(line)
     except:
         ans += float(line)
 
