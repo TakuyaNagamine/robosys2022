@@ -1,6 +1,6 @@
 # robosys2022
 ## 使用方法
-*ターミナル上にてgit clone https://github.com/TakuyaNagamine/robosys2022.git を実行
+*ターミナル上にて```git clone https://github.com/TakuyaNagamine/robosys2022.git```を実行
 
 ## plusコマンド
 ![test](https://github.com/TakuyaNagamine/robosys2022/actions/workflows/test.yml/badge.svg)
