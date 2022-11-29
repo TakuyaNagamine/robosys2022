@@ -1,6 +1,6 @@
 ![test](https://github.com/TakuyaNagamine/robosys2022/actions/workflows/test.yml/badge.svg)
 # robosys2022
-## 使用方法
+## このリポジトリの使い方
 * ターミナル上にて以下のコマンドを実行  
   * HTTPS  
     ```
