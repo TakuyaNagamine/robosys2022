@@ -1,14 +1,14 @@
 ![test](https://github.com/TakuyaNagamine/robosys2022/actions/workflows/test.yml/badge.svg)
 # robosys2022
-## このリポジトリの使い方
+## インストール方法
 * ターミナル上にて以下のコマンドを実行  
   * HTTPS  
     ```
-    git clone https://github.com/TakuyaNagamine/robosys2022.git
+    $ git clone https://github.com/TakuyaNagamine/robosys2022.git
     ```
   * SSH  
     ```
-    git clone git@github.com:TakuyaNagamine/robosys2022.git
+    $ git clone git@github.com:TakuyaNagamine/robosys2022.git
     ```
 ## plusコマンド
 ### コマンド概要
@@ -17,9 +17,17 @@
 * 与えられた自然数以下のすべての自然数を足した数値を表示  
   ターミナルにて
   ```
-  seq [与える数値] |./plus
+  $ seq [与える数値] |./plus
   ```
   を実行
+* 具体例
+  ```
+  $ seq 5 |./plus
+  ```  
+* 実行結果
+  ```
+  15
+  ```
 ## subtractionコマンド
 ### コマンド概要
 * 標準入力から読み込んだ数字を引く。
@@ -27,9 +35,17 @@
 * 与えられた自然数以下のすべての自然数を引いた数値を表示  
   ターミナルにて
   ```
-  seq [与える数値] |./subtraction
+  $ seq [与える数値] |./subtraction
   ```
   を実行
+* 具体例
+  ```
+  $ seq 5 |./subtraction
+  ```  
+* 実行結果
+  ```
+  -15
+  ```
 ## 動作確認済み環境
 * Ubuntu 20.04.5 LTS
 * Python 3.7〜3.10(テスト済み)
