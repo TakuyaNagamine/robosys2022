@@ -1,5 +1,7 @@
 ![test](https://github.com/TakuyaNagamine/robosys2022/actions/workflows/test.yml/badge.svg)
 # robosys2022
+## 本リポジトリについて
+このリポジトリには千葉工業大学にて開講されている「ロボットシステム学」の講義内で取り扱われているプログラムを含めたリポジトリである
 ## インストール方法
 * ターミナル上にて以下のコマンドを実行  
   * HTTPS  
@@ -10,8 +12,6 @@
     ```
     $ git clone git@github.com:TakuyaNagamine/robosys2022.git
     ```
-## 本リポジトリについて
-このリポジトリには千葉工業大学にて開講されている「ロボットシステム学」の講義内で取り扱われているプログラムを含めたリポジトリである
 ## plusコマンド
 ### コマンド概要
 * 標準入力から読み込んだ数字を足す。
